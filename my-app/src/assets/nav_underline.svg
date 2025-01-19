@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+    <!-- Top line - longer and green -->
+    <line x1="20" y1="30" x2="180" y2="30" stroke="#08A045" stroke-width="8"/>
+    
+    <!-- Bottom line - shorter and blue -->
+    <line x1="60" y1="70" x2="140" y2="70" stroke="#0066cc" stroke-width="8"/>
+</svg>

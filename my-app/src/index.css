@@ -1,0 +1,840 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.newNav  li a {
+    color: white;
+    text-decoration: none;
+}
+
+.newNav  li a:hover {
+    color: rgb(165, 147, 147);
+}
+
+.newNav  li img {
+    padding: -100px;
+}
+
+.navMenu li:hover {
+    color: rgb(165, 147, 147);
+}
+
+.navConnect {
+    padding: 15px 20px;
+    border-radius: 50px;
+    background: linear-gradient(265deg, #08A045 0.36%, #0066cc);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero img {
+    margin-top: 1rem;
+}
+
+.hero h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(270deg, #08A045 10%, #0066cc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    line-height: 40px;
+}
+
+.heroAction {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.heroConnect {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #08A045 -5.09%, #0066cc 106.28%);
+    cursor: pointer;
+}
+
+.heroConnect:hover {
+    border: 1px solid white;
+}
+
+.heroResume {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.heroResume:hover {
+    border: 1px solid #0066cc;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.aboutTitle {
+    position: relative;
+}
+
+.aboutTitle h1 {
+    padding: 0px 20px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.aboutTitle img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.aboutSection {
+    display: flex;
+    gap: 60px;
+}
+
+.aboutRight {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.aboutPara {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.aboutSkills {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.aboutSkill {
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.aboutSkill p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.aboutSkill hr {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #08A045 -5.09%, #0066cc 106.28%);
+}
+
+.aboutAchievements {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.aboutAchievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.aboutSkill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.aboutAchievement:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+}
+
+.aboutAchievement h1 {
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #08A045 50.41%, #0066cc 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.servicesTitle {
+    position: relative;
+}
+
+.servicesTitle h1 {
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.servicesTitle img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.servicesFormat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.servicesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.servicesFormat h3 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.servicesFormat h2 {
+    font-size: 36px;
+    font-weight:800;
+    background: linear-gradient(270deg, #08A045 50%, #0066cc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.servicesFormat p {
+    color: #d4d4d4;
+    font-size: 22px;
+    line-height: 40px;
+    max-width: 300px;
+}
+
+.servicesFormat:hover {
+    border: 1px solid #0066cc;
+    background-image: linear-gradient(45deg, #0066cc, #011208);
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.servicesReadmore {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* ... rest of the CSS remains unchanged ... */
+
+@media (max-width: 768px) {
+    /* ... media queries remain unchanged ... */
+    .footerSubscribe {
+        font-size: 20px;
+        cursor: pointer;
+        padding: 22px 50px;
+        border-radius: 50px;
+        background: linear-gradient(264deg, #08A045 -5.09%, #0066cc 106.28%);
+        transition: 0.3s;
+    }
+}
+
+.mywork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.myworkTitle {
+    position: relative;
+}
+
+.myworkTitle h1 {
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.myworkTitle img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.myworkContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.myworkContainer img {
+    box-sizing: border-box;
+    width: 418px;
+    height: 280px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.myworkContainer img:hover {
+    transform: scale(1.10);
+    border: 2px solid #0066cc;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.myworkShowmore {
+    display: flex;
+    gap: 15px;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.myworkShowmore:hover {
+    gap: 30px;
+    transition: 0.6s;
+    border: 1px solid #0066cc;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.contactTitle {
+    position: relative;
+}
+
+.contactTitle h1 {
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.contactTitle img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.contactSection {
+    display: flex;
+    gap: 150px;
+}
+
+.contactLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contactLeft h1 {
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #08A045 80%, #0066cc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contactLeft p {
+    max-width: 550px;
+    color: #abe1ab;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.conactDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #d4d4d4;
+    font-size: 22px;
+}
+
+.contactDetail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.contactRight label {
+    color: #d4d4d4;
+    font-size: 20px;
+}
+
+.contactRight input {
+    border: none;
+    width: 700px;
+    height: 80px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #a0a0a0;
+    font-size: 20px;
+}
+
+.contactRight textarea {
+    width: 700px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #a0a0a0;
+    font-size: 20px;
+}
+
+.footer {
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerTopLeft p {
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.footerTopRight {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.footerEmailInput {
+    display: flex;
+    gap: 30px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background-color: #32323c;
+    padding-right: 80px;
+}
+
+.footerEmailInput input {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #a0a0a0;
+    font-size: 18px;
+}
+
+.footerSubscribe {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 22px 50px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #08A045 -5.09%, #0066cc 106.28%);
+    transition: 0.3s;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.footerBottomRight {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.footerEmailInput:hover {
+    border: 1px solid white;
+}
+
+.footerSubscribe:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.navMenu li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.navMenu li img {
+    display: flex;
+    margin: auto;
+}
+
+.navMobileClose {
+    display: none;
+}
+
+.navMobileOpen {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navBar {
+        margin: 20px 50px;
+    }
+
+    .navConnect {
+        display: none;
+    }
+
+    .navMobileOpen {
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+
+    .navMobileClose {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 30px;
+        padding-right: 1rem;
+        width: 34px;
+    }
+
+    .newNav {
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #dfdfdf;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.4s;
+        right: -350px;
+        color: black;
+    }
+
+    .newNav li {
+        font-size: 22px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .newNav li a {
+        color: black;
+    }
+    .hero img {
+        margin-bottom: 20px;
+        width: 260px;
+    }
+
+    .hero h1 {
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .hero p {
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+
+    .heroAction {
+        gap: 16px;
+        font-size: 19px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .heroConnect {
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+
+    .heroResume {
+        padding: 20px 50px;
+    }
+
+    .about {
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+
+    .aboutTitle h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .aboutTitle img {
+        width: 130px;
+        right: -20px;
+    }
+
+    .aboutSection {
+        flex-direction: column;
+    }
+
+    .aboutLeft {
+        display: none;
+    }
+
+    .aboutPara {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .aboutSkill {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .aboutSkill p {
+        font-size: 20px;
+    }
+
+    .aboutSkill hr {
+        height: 6px;
+    }
+
+    .aboutAchievements {
+        justify-content: space-between;
+    }
+
+    .aboutAchievement {
+        gap: 10px;
+    }
+
+    .aboutAchievement h1 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .aboutAchievement p {
+        font-size: 16px;
+    }
+
+    .services {
+        align-items: start;
+        gap: 70px;
+        margin: 20px 70px;
+    }
+
+    .servicesTitle h1 {
+        padding: 0;
+        font-size: 50px;
+    }
+
+    .servicesTitle img {
+        width: 130px;
+        margin-right: -20px;
+    }
+
+    .servicesFormat {
+        gap: 20px;
+        padding: 32px;
+    }
+
+    .servicesFormat h2 {
+        font-size: 28px;
+    }
+
+    .servicesFormat p {
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;
+    }
+
+    .servicesReadmore img {
+        width: 20px;
+    }
+
+    .servicesContainer {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .mywork {
+        gap: 50px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+
+    .myworkTitle h1 {
+        padding: 0;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .myworkTitle img {
+        width: 130px;
+        margin-right: -20px;
+    }
+
+    .myworkContainer {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .myworkContainer img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .myworkShowmore {
+        padding: 20px 40px;
+        font-size: 18px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
+
+    .contact {
+        gap: 50px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+
+    .contactTitle h1 {
+        padding: 0;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .contactTitle img {
+        width: 130px;
+        margin-right: -20xp;
+    }
+
+    .contactSection {
+        flex-direction: column;
+    }
+
+    .contactLeft h1 {
+        font-size: 54px;
+    }
+
+    .contactLeft p {
+        font-size: 18px;
+    }
+
+    .conactDetail {
+        gap: 20px;
+    }
+
+    .conactDetail img {
+        width: 25px;
+    }
+
+    .contactRight label {
+        font-size: 20px;
+    }
+
+    .contactRight input {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .contactRight textarea {
+        width: 90%;
+    }
+
+    .footer {
+        margin: 50px 70px;
+    }
+
+    .footerTop {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footerBottom {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+}
